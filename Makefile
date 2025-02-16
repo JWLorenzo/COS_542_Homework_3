@@ -10,7 +10,7 @@ run: build
 	time ./monte_carlo.out 
 
 run_alt: build
-	time ./montecarlo.out -alt
+	time ./monte_carlo.out -alt
 
 clean:
 	rm monte_carlo.out
