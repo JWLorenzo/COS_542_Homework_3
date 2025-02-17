@@ -1,19 +1,19 @@
 ## COS_542_Homework_3
 - **Name:** Jacob Lorenzo
-- **Date:** 2/7/2025
+- **Date:** 2/16/2025
 - **Instructor:** Dr. Dickens
 - **Class:** COS 542
-- **Assignment:** Homework 2
+- **Assignment:** Homework 3
+
+## How To Run:
+- You can compile it with 'make build'
+- You can run it with 'make run' or 'make run_alt' if you want to use rand_r() instead of random()
+- You can clean up the compiled file with 'make clean' 
+- You can use 'make all' or 'make all_alt' to compile, run, and cleanup respective to the methods mentioned above. 
 
 ## Additional Help:
 - I used the code displayed in lectures 5 and 6
 - I used GeeksForGeeks to jog my memory on how to work with C
-- Stackoverflow post to figure out how to get C to output time in miliseconds: 
-https://stackoverflow.com/questions/10192903/time-in-milliseconds-in-c
-
-## Observations: 
-- Had to use the POSIX standard library for time.h because ANSI doesn't
-  do millisecond precision. 
 
 ## Results:
 
@@ -63,10 +63,3 @@ https://man7.org/linux/man-pages/man3/random_r.3.html
 https://man7.org/linux/man-pages/man3/srandom.3.html 
 https://man7.org/linux/man-pages/man3/rand.3p.html
 https://en.wikipedia.org/wiki/False_sharing 
-
-
-## How To Run:
-- You can compile it with 'make build'
-- You can run it with 'make run'
-- You can clean up the compiled file with 'make clean' 
-- You can use 'make all' to compile, run, and cleanup. 
