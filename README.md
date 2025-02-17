@@ -58,8 +58,8 @@ On the other hand, rand_r() uses a seed per thread, with each thread maintaining
 
 
 ##### Sources:
-https://man7.org/linux/man-pages/man3/random.3.html
-https://man7.org/linux/man-pages/man3/random_r.3.html
-https://man7.org/linux/man-pages/man3/srandom.3.html 
-https://man7.org/linux/man-pages/man3/rand.3p.html
-https://en.wikipedia.org/wiki/False_sharing 
+- https://man7.org/linux/man-pages/man3/random.3.html
+- https://man7.org/linux/man-pages/man3/random_r.3.html
+- https://man7.org/linux/man-pages/man3/srandom.3.html 
+- https://man7.org/linux/man-pages/man3/rand.3p.html
+- https://en.wikipedia.org/wiki/False_sharing 
